@@ -1,0 +1,91 @@
+p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        font-style: italic;
+    }
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: aqua;
+    font-size: larger;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: unset;
+    font-size: medium;
+    font-weight: 400;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+}
+
+selector {
+    property: value;
+} */
+/* Types of CSS selectors*/
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* element selection*/
+button{
+    padding: 8px;
+    background-color: blue;
+    color: #fff;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+    color: darkgrey;
+}
+img{
+    height: 400px;
+     width: 400px;
+     border-radius: 50%;
+}
+
+/* Class Selector */
+.container {
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+}
+.logo-text {
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+    padding: 10px; 
+}
+a{
+    text-decoration: none;
+}
+/* Id selector */
+#portfolio{
+    border: 4px dotted green;
+}
+
+/* Attribute  selector */
+a[href] {
+    color: #fff;
+}
+
+/* Descendanrt selector */
+
+div h4{
+    color: red;
+}
+
+/* child selector */
+div >p {
+    color: green;
+}
